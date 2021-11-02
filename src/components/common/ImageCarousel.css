@@ -1,0 +1,147 @@
+.rec.rec-carousel-wrapper {
+  margin: 0px;
+  padding: 10px;
+  height: 100%;
+  justify-content: center;
+}
+
+.rec.rec-carousel {
+  height: 100%;
+  min-height: 100%;
+}
+
+
+.rec.rec-slider-container {
+  margin: 0;
+  height: 100%;
+}
+
+.rec.rec-slider {
+  height: 100%;
+}
+
+ .rec.rec-swipable {
+  max-height: 100%;
+  align-items: center;
+}
+
+.rec.rec-carousel-item {
+    height: 100%;
+    width: 100%;
+}
+
+.rec.rec-item-wrapper{
+    height: 100%;
+}
+
+.myImageCard{
+    height: 100%;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myImageCard img {
+    flex-shrink: 1;
+    max-width: 95%;
+    max-height: 95%;
+    border: 0;
+    padding: 5px;
+    background: red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 2px #333;
+    
+}
+
+.rec.rec-arrow {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  font-size: 50px;
+}
+
+.rec.rec-arrow:hover:enabled {
+  color: red;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rec.rec-arrow:focus:enabled {
+  color: red;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rec.rec-arrow:active:enabled {
+  color: red;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rec.rec-arrow:active:disabled {
+  color: #333;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rec.rec-dot:hover:enabled {
+  background-color: red;
+  box-shadow: 0 0 1px 3px rgba(56, 54, 54, 0.801);
+}
+
+.rec.rec-dot:focus:enabled {
+  background-color: red;
+  box-shadow: 0 0 1px 3px rgba(56, 54, 54, 0.801);
+}
+
+.rec.rec-dot_active {
+  background-color: red;
+  box-shadow: 0 0 1px 3px rgba(56, 54, 54, 0.801);
+}
+
+.arrow {
+  border: none;
+  background: transparent;
+}
+
+.arrow:disabled svg {
+  cursor: not-allowed;
+  color: rgb(185, 183, 181);
+}
+
+.arrow:disabled svg:hover {
+  color: rgb(185, 183, 181);
+}
+
+.arrow:disabled svg:focus {
+  color: rgb(185, 183, 181);
+}
+
+.arrow svg {
+  width: 50px;
+  height: 50px;
+  color: #333;
+}
+
+.arrow svg:hover {
+  color: red;
+}
+
+.arrow svg:active {
+  color: red;
+  background: none;
+}
+
+@media (max-width: 768px) {
+  .arrow svg {
+    width: 25px;
+    height: 25px;
+    color: #333;
+  }
+
+  .rec.rec-arrow {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "./../../styles/variables.scss";
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $bg;
+    padding : 0px 3rem 0px 3rem;
+    min-height: 90vh;
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 2rem 0px 2rem 0px;
+        gap:1.5rem;
+    }
+
+    svg{
+        width: 60px;
+        height: 60px;
+    }
+}

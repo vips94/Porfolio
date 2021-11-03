@@ -1,0 +1,71 @@
+@import './../../styles/variables.scss';
+
+.container{
+    min-width: 100%;
+    min-height: 100vh;
+    background: rgba($dark, 0.5);
+    backdrop-filter: blur(2px);
+    top: 0;
+    left: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    transform: translate(-100%);
+    position: fixed;
+
+   
+
+    &__view{
+        // height: 70vh;
+        min-height: 60vh;
+        width: 80%;
+        background: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @include breakpoint(md){
+            width: 50%;
+            min-height: 90vh;
+        }
+
+        &__pdf{
+            width: 98%;
+            height: 60vh;
+            min-height: 60vh;
+            margin: 5px;
+            border: 1px solid black;
+            @include breakpoint(md){
+                width: 98.2%;
+                min-height: 90vh;
+            }
+        }
+
+        a{
+            height: 30px;
+            width: 150px;
+            background: red;
+            color: white;
+            border: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 10px;
+
+            @include breakpoint(md){
+                width: 200px;
+                font-size: 17px;
+            }
+
+
+            &:hover{
+                background: white;
+                color: red;
+            }
+        }
+    }
+}

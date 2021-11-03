@@ -40,6 +40,10 @@
         }
     }
 
+    &:focus{
+        transform: translate(0) scale(1,1);
+    }
+
     // &:active {
     //   border-radius: calc(#{$borderRadius} + 6px);
     //   background: linear-gradient(rgba($light, 0.1), rgba($light, 0.2));
@@ -48,7 +52,7 @@
     svg {
       width: 30px;
       height: 30px;
-      color: red;
+      color: #333;
       
 
       @include breakpoint(md) {

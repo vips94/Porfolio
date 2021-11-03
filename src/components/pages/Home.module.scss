@@ -8,6 +8,27 @@
     background: $bg;
     justify-content: center;
 
+    &__btnResume{
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+        box-shadow: 3px 3px 12px #333;
+        border-radius: $borderRadius;
+        background: linear-gradient(220deg, $primary, rgba($primary,0.5));
+        border: 0;
+        font-size: 17px;
+        font-weight: bold;
+        color: #333;
+        transition: 0.5s ease all;
+
+        &:hover{
+            background: linear-gradient(220deg, $dark, rgba($dark,0.5));
+            color: white;
+            box-shadow: 1.5px 1.5px 6px rgba(255,0,0,0.5);
+            transform: scale(0.95,0.95);
+        }
+    }
+
     h1{
         padding: 1.5rem 2.5rem;
         background: linear-gradient(220deg, $primary, rgba($primary,0.5));

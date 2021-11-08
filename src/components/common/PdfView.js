@@ -8,7 +8,7 @@ const PdfView = (props)=>{
     useEffect(()=>{
         WebViewer(
             {
-                path: process.env.PUBLIC_URL+'lib',
+                path: process.env.PUBLIC_URL+'/lib',
                 initialDoc: process.env.PUBLIC_URL+'/documents/resume.pdf',
             },
             viewer.current,

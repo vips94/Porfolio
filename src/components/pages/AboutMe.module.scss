@@ -70,17 +70,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @include breakpoint(md) {
-          justify-content: end;
-          align-items: center;
-        }
     
         img {
-          height: 350px;
-          transform: scaleX(-1);
+          height: 250px;
+          clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0 0);
+          @include breakpoint(md) {
+            height: 350px;
+          }
         }
       }
-    
+
   }
 
   }

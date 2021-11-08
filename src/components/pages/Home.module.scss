@@ -11,7 +11,7 @@
     &__btnResume{
         margin-top: 10px;
         width: 200px;
-        height: 50px;
+        height: 40px;
         box-shadow: 3px 3px 12px #333;
         border-radius: $borderRadius;
         background: linear-gradient(220deg, $primary, rgba($primary,0.5));
@@ -30,15 +30,27 @@
     }
 
     h1{
-        padding: 1.5rem 2.5rem;
-        background: linear-gradient(220deg, $primary, rgba($primary,0.5));
-        border-radius: $borderRadius calc(#{$borderRadius} * 10);
+       // padding: 1.5rem 2.5rem;
+        //background: linear-gradient(220deg, $primary, rgba($primary,0.5));
+       // border-radius: $borderRadius calc(#{$borderRadius} * 10);
+        font-size: 20px;
+        color: #333;
     }
 
-    img {
-        height: 10rem;
-        transform: scaleX(-1);
+    &__profile{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 10px;
+
+        img {
+            height: 10rem;
+            transform: scaleX(-1) translateX(12px);
+        }
     }
+
+   
 
     span{
         font-size: 22px;

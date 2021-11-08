@@ -18,7 +18,7 @@ const AboutMe = ({children})=>{
 
                 </div>
                 <div className={classes.aboutMe__grid__photo}>
-                    <img  src="/images/profile.png" alt=""/>
+                    <img  src="/images/profilecopy.jpg" alt=""/>
                 </div>
             </div>
         </div>

@@ -20,7 +20,9 @@ const Home = () => {
 
     return (
         <div id="home" className={classes.home}>
-            <img src="/images/profile.png" alt=""/>
+            <div className={classes.home__profile}>
+                <img src="/images/profilePhoto.jpg" alt=""/> 
+            </div>
             <h1>VIPIN KUMAR</h1>
             <p>I Am <span>{text}<Cursor cursorStyle="|"/></span></p>
             <button className={classes.home__btnResume} onClick={showPdfHandler}>SHOW RESUME</button>

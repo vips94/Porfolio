@@ -6,7 +6,7 @@ const ProjectCard = (props)=>{
     const {projectName,projectIcon} = props.projectDetail
     return(
         <div className={classes.projectCard} onClick={props.onClick}>
-            <img src={`/images/${projectIcon}.png`} alt="oh!"/>
+            <img src={`${process.env.PUBLIC_URL}/images/${projectIcon}.png`} alt="oh!"/>
             <span>{projectName}</span>
         </div>
     );

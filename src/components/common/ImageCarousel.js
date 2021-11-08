@@ -28,7 +28,7 @@ const ImageCarousel = (props) => {
             props.images.map((imgNum,id)=>{
                return ( 
                <div className="myImageCard">
-                   <img key={id} src={`/images/${props.imageFolder}/${imgNum}.png`} alt="img"/>
+                   <img key={id} src={`${process.env.PUBLIC_URL}/images/${props.imageFolder}/${imgNum}.png`} alt="img"/>
                 </div>
                 );
             })  

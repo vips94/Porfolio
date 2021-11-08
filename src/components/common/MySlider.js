@@ -17,19 +17,19 @@ const MySlider = () => {
   return (
     <Slider className={classes.mySlider} {...settings}>
         <div>
-          <img src={`/images/save_me/1.png`} alt="img" />
+          <img src={`${process.env.PUBLIC_URL}/images/save_me/1.png`} alt="img" />
         </div>
         <div>
-        <img src={`/images/save_me/2.png`} alt="img" />
+        <img src={`${process.env.PUBLIC_URL}/images/save_me/2.png`} alt="img" />
         </div>
         <div>
-        <img src={`/images/save_me/3.png`} alt="img" />
+        <img src={`${process.env.PUBLIC_URL}/images/save_me/3.png`} alt="img" />
         </div>
         <div>
-        <img src={`/images/save_me/4.png`} alt="img" />
+        <img src={`${process.env.PUBLIC_URL}/images/save_me/4.png`} alt="img" />
         </div>
         <div>
-        <img src={`/images/save_me/5.png`} alt="img" />
+        <img src={`${process.env.PUBLIC_URL}/images/save_me/5.png`} alt="img" />
         </div>
     
     </Slider>

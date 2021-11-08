@@ -21,7 +21,7 @@ const Home = () => {
     return (
         <div id="home" className={classes.home}>
             <div className={classes.home__profile}>
-                <img src="/images/profilePhoto.jpg" alt=""/> 
+                <img src={process.env.PUBLIC_URL + "/images/profilePhoto.jpg"} alt=""/> 
             </div>
             <h1>VIPIN KUMAR</h1>
             <p>I Am <span>{text}<Cursor cursorStyle="|"/></span></p>

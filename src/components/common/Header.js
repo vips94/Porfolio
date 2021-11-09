@@ -36,7 +36,12 @@ const Header = ()=>{
   return (
     <header className={classes.header}>
       <div className={classes.header__content} >
-        <h2 className={classes.header__content__logo}>Portfolio</h2>
+        <Link className={classes.header__content__logo}  
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}>Portfolio</Link>
         <nav
           className={`${classes.header__content__nav} ${
             menuOpen ? classes.isMenu : " "

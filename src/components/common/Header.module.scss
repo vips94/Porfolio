@@ -40,9 +40,15 @@
             justify-content: flex-start;
             align-items: center;
             width: 100%;
+            transition: 0.3s ease all;
 
             @include breakpoint(md){
                 font-size: 2.5rem;
+
+                &:hover{
+                    color: $bg;
+                    transform: translateX(5px);
+                }
             }
         }
 

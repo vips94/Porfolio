@@ -186,3 +186,8 @@
         }
     }
 }
+
+:global .active{
+    color: red !important;
+    font-size: 20px !important;
+}

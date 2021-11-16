@@ -36,12 +36,9 @@ const Header = ()=>{
   return (
     <header className={classes.header}>
       <div className={classes.header__content} >
-        <Link className={classes.header__content__logo}  
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={-80}
-            duration={500}>Portfolio</Link>
+        <a className={classes.header__content__logo}  
+            href="https://github.com/vips94/Porfolio"
+            target="_blank" rel="noreferrer">Portfolio</a>
         <nav
           className={`${classes.header__content__nav} ${
             menuOpen ? classes.isMenu : " "
@@ -50,7 +47,7 @@ const Header = ()=>{
           <ul>
             <li>
               {/* <a href="#aboutMe" >About Me</a> */}
-              <Link
+              <Link exact="true"
                 to="aboutMe"
                 spy={true}
                 smooth={true}
@@ -61,7 +58,7 @@ const Header = ()=>{
             </li>
             <li>
               {/* <a href="#skills">Skills</a> */}
-              <Link
+              <Link exact="true"
                 to="skills"
                 spy={true}
                 smooth={true}
@@ -72,7 +69,7 @@ const Header = ()=>{
             </li>
             <li>
               {/* <a href="#projects">Projects</a> */}
-              <Link
+              <Link exact="true"
                 to="projects"
                 spy={true}
                 smooth={true}
@@ -83,7 +80,7 @@ const Header = ()=>{
             </li>
             <li>
               {/* <a href="#contact">Contact</a> */}
-              <Link
+              <Link exact="true"
                 to="contact"
                 spy={true}
                 smooth={true}
@@ -94,7 +91,7 @@ const Header = ()=>{
             </li>
             <li>
               {/* <button href="#home">Home</button> */}
-              <Link
+              <Link exact="true"
                 to="home"
                 spy={true}
                 smooth={true}

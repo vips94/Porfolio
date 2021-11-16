@@ -42,9 +42,28 @@
     &__close {
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: space-between;
       width: 100%;
       z-index: 300;
+      
+      a{
+        text-decoration: none;
+        margin-left: 1rem;
+        background: red;
+        padding: 0 10px 0 10px;
+        color: white;
+        box-shadow: 3px 3px 12px #333;
+        border: 0;
+        font-size: 18px;
+        transition: 0.5s ease all;
+
+        &:hover{
+            background: linear-gradient(220deg, $dark, rgba($dark,0.5));
+            color: white;
+            box-shadow: 1.5px 1.5px 6px rgba(255,0,0,0.5);
+            transform: scale(0.95,0.95);
+        }
+      }
 
       button {
         margin-right: 10px;

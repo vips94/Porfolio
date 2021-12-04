@@ -5,6 +5,18 @@ import ProjectPopup from "./../common/ProjectPopup";
 
 const projects = [
   {
+    id:"e6",
+    projectName: "To-do List",
+    projectIcon: "to-do",
+    imageFolder: "to-do",
+    images: [1, 2, 3, 4, 5, 6, 7,8,9,10,11,12,13],
+    projectDescription : "Used React/Javascript/Html/CSS to create this project which is Responsive",
+    website:true,
+    github:true,
+    websiteLink:"https://vips94.github.io/to-do/",
+    githubLink:"https://github.com/vips94/to-do"
+  },
+  {
     id:"e0",
     projectName: "News-App",
     projectIcon: "news-app",

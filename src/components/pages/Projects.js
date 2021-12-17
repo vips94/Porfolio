@@ -8,6 +8,7 @@ const projects = [
     id:"e6",
     projectName: "To-do List",
     projectIcon: "to-do",
+    backgroundColor:'rgb(224 255 202)',
     imageFolder: "to-do",
     images: [1, 2, 3, 4, 5, 6, 7,8,9,10,11,12,13],
     projectDescription : "Used React/Javascript/Html/CSS to create this project which is Responsive",
@@ -15,6 +16,19 @@ const projects = [
     github:true,
     websiteLink:"https://vips94.github.io/to-do/",
     githubLink:"https://github.com/vips94/to-do"
+  },
+  {
+    id:"e7",
+    projectName: "Word Clock",
+    projectIcon: "analog_clock",
+    backgroundColor:"rgb(144 211 255)",
+    imageFolder: "analog_clock",
+    images: [1, 2, 3, 4, 5, 6],
+    projectDescription : "Used React/Javascript/Html/CSS to create this project which is Responsive",
+    website:true,
+    github:true,
+    websiteLink:"https://vips94.github.io/AnalogClock/",
+    githubLink:"https://github.com/vips94/AnalogClock"
   },
   {
     id:"e0",

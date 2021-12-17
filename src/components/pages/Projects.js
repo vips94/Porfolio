@@ -19,7 +19,7 @@ const projects = [
   },
   {
     id:"e7",
-    projectName: "Word Clock",
+    projectName: "World Clock",
     projectIcon: "analog_clock",
     backgroundColor:"rgb(144 211 255)",
     imageFolder: "analog_clock",

@@ -18,6 +18,19 @@ const projects = [
     githubLink:"https://github.com/vips94/to-do"
   },
   {
+    id:"e8",
+    projectName: "Book My Show",
+    projectIcon: "book_my_show",
+    backgroundColor:'rgb(255 255 255)',
+    imageFolder: "book_my_show",
+    images: [1, 2, 3, 4, 5, 6, 7,8,9],
+    projectDescription : "Used React/Javascript/Html/CSS/Redux tool for state management to create this project which is Responsive",
+    website:true,
+    github:true,
+    websiteLink:"https://vips94.github.io/Book-My-Show/",
+    githubLink:"https://github.com/vips94/Book-My-Show"
+  },
+  {
     id:"e7",
     projectName: "World Clock",
     projectIcon: "analog_clock",

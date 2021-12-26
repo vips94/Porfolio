@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "https://vips94.github.io/Porfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
